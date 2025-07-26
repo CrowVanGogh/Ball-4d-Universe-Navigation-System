@@ -1,0 +1,35 @@
+{
+  "name": "ball-4d-universe-navigation-system",
+  "version": "1.0.0",
+  "description": "Patent-backed sovereign navigation system integrating Quantum Positional Synchronization (QPS), Golden Spiral Coordinates, and encrypted telemetry",
+  "main": "index.js",
+  "scripts": {
+    "verify-claims": "node scripts/claimVerifier.js",
+    "finalize-genesis": "node genesisFinalization.js",
+    "upload-ipfs": "node scripts/ipfs-upload.js",
+    "batch-upload": "node scripts/batch-upload.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ball4d",
+    "navigation",
+    "quantum",
+    "ipfs",
+    "natiq",
+    "spatial",
+    "coordinates"
+  ],
+  "author": "Ball 4D Development Team",
+  "license": "Ball 4D Sovereign Commercial License (B4D-SCL)",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrowVanGogh/Ball-4d-Universe-Navigation-System.git"
+  }
+}

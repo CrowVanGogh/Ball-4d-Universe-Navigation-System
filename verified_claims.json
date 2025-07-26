@@ -1,0 +1,131 @@
+{
+  "claims": [
+    {
+      "claim_id": "b4d-genesis-001",
+      "node_id": "node-atlanta-primary",
+      "coordinates": [33.7490, -84.3880],
+      "timestamp": "2025-01-26T15:30:00Z",
+      "resonance_signature": "a9f3c1e7d5b8492c68f1a7e3d9c5b2f8e4a6c3d7f1b5e8a2c6d9f3b7e1a4c8d2",
+      "natiq_score": 0.89,
+      "spatial_resonance": 0.92,
+      "temporal_resonance": 0.88,
+      "harmonic_weight": 0.85,
+      "drift_penalty": -0.02,
+      "status": "verified",
+      "verification_timestamp": "2025-01-26T15:31:15Z"
+    },
+    {
+      "claim_id": "b4d-node-002",
+      "node_id": "node-denver-secondary",
+      "coordinates": [39.7392, -104.9903],
+      "timestamp": "2025-01-26T16:45:00Z",
+      "resonance_signature": "f8e2a5c9d6b3f1e7a4c8d5b2f9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6",
+      "natiq_score": 0.76,
+      "spatial_resonance": 0.78,
+      "temporal_resonance": 0.82,
+      "harmonic_weight": 0.71,
+      "drift_penalty": -0.05,
+      "status": "verified",
+      "verification_timestamp": "2025-01-26T16:46:22Z"
+    },
+    {
+      "claim_id": "b4d-node-003",
+      "node_id": "node-miami-tertiary",
+      "coordinates": [25.7617, -80.1918],
+      "timestamp": "2025-01-26T17:15:00Z",
+      "resonance_signature": "c3d7f1b5e8a2c6d9f3b7e1a4c8d2f5b9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5",
+      "natiq_score": 0.42,
+      "spatial_resonance": 0.55,
+      "temporal_resonance": 0.48,
+      "harmonic_weight": 0.35,
+      "drift_penalty": -0.18,
+      "status": "flagged",
+      "verification_timestamp": "2025-01-26T17:16:08Z",
+      "flag_reason": "NATIQ score below threshold (0.42 < 0.55)"
+    },
+    {
+      "claim_id": "b4d-node-004",
+      "node_id": "node-seattle-primary",
+      "coordinates": [47.6062, -122.3321],
+      "timestamp": "2025-01-26T18:20:00Z",
+      "resonance_signature": "b5e8a2c6d9f3b7e1a4c8d2f5b9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6",
+      "natiq_score": 0.94,
+      "spatial_resonance": 0.96,
+      "temporal_resonance": 0.91,
+      "harmonic_weight": 0.97,
+      "drift_penalty": 0.0,
+      "status": "verified",
+      "verification_timestamp": "2025-01-26T18:21:11Z"
+    },
+    {
+      "claim_id": "b4d-node-005",
+      "node_id": "node-chicago-backup",
+      "coordinates": [41.8781, -87.6298],
+      "timestamp": "2025-01-26T19:30:00Z",
+      "resonance_signature": "d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2",
+      "natiq_score": 0.68,
+      "spatial_resonance": 0.72,
+      "temporal_resonance": 0.75,
+      "harmonic_weight": 0.62,
+      "drift_penalty": -0.08,
+      "status": "verified",
+      "verification_timestamp": "2025-01-26T19:31:33Z"
+    },
+    {
+      "claim_id": "b4d-node-006",
+      "node_id": "node-phoenix-experimental",
+      "coordinates": [33.4484, -112.0740],
+      "timestamp": "2025-01-26T20:00:00Z",
+      "resonance_signature": "e5a2c9d6b3f7e4a1c8d5b2f9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6a3",
+      "natiq_score": 0.31,
+      "spatial_resonance": 0.28,
+      "temporal_resonance": 0.45,
+      "harmonic_weight": 0.22,
+      "drift_penalty": -0.25,
+      "status": "flagged",
+      "verification_timestamp": "2025-01-26T20:01:45Z",
+      "flag_reason": "Critical NATIQ score (0.31 < 0.40), significant drift detected"
+    },
+    {
+      "claim_id": "b4d-node-007",
+      "node_id": "node-boston-research",
+      "coordinates": [42.3601, -71.0589],
+      "timestamp": "2025-01-26T21:15:00Z",
+      "resonance_signature": "f7e4a1c8d5b2f9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6a3c7d4b1f8e5",
+      "natiq_score": 0.83,
+      "spatial_resonance": 0.87,
+      "temporal_resonance": 0.79,
+      "harmonic_weight": 0.86,
+      "drift_penalty": -0.01,
+      "status": "verified",
+      "verification_timestamp": "2025-01-26T21:16:27Z"
+    },
+    {
+      "claim_id": "b4d-node-008",
+      "node_id": "node-austin-development",
+      "coordinates": [30.2672, -97.7431],
+      "timestamp": "2025-01-26T22:45:00Z",
+      "resonance_signature": "a2c9d6b3f7e4a1c8d5b2f9e6a3c7d4b1f8e5a2c9d6b3f7e4a1c8d5b2f9e6a3c7",
+      "natiq_score": 0.58,
+      "spatial_resonance": 0.63,
+      "temporal_resonance": 0.61,
+      "harmonic_weight": 0.52,
+      "drift_penalty": -0.12,
+      "status": "review_required",
+      "verification_timestamp": "2025-01-26T22:46:18Z",
+      "flag_reason": "Moderate NATIQ score requires enhanced review"
+    }
+  ],
+  "metadata": {
+    "total_claims": 8,
+    "verification_date": "2025-01-26T23:00:00Z",
+    "natiq_threshold": 0.55,
+    "drift_threshold": -0.15,
+    "system_version": "Ball4D v1.0",
+    "verifier_node": "node-atlanta-primary",
+    "genesis_anchor": {
+      "coordinates": [33.7490, -84.3880],
+      "signature": "a9f3c1e7d5b8492c68f1a7e3d9c5b2f8e4a6c3d7f1b5e8a2c6d9f3b7e1a4c8d2"
+    }
+  }
+}

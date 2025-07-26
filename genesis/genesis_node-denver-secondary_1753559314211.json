@@ -1,0 +1,49 @@
+{
+  "node_id": "node-denver-secondary",
+  "original_coordinates": [
+    39.7392,
+    -104.9903
+  ],
+  "anchored_coordinates": [
+    39.7392,
+    -104.9903
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "cb469f1dc8498723df3c613cbfb1586da761adafc4505b5baa33a2e864366946",
+  "drift_compensation": {
+    "distance_km": 1947.3564520588877,
+    "drift_penalty": -0.3894712904117775,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.211Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.76,
+    "locked_score": 0.754998,
+    "temporal_harmonic": -0.006033,
+    "spatial_harmonic": 0.001031,
+    "lock_signature": "28e2d764ee505dfd1cd4eeb70c093d74a57f2d0c48932358f664e3c2e6c1ff9c",
+    "locked_at": "2025-01-26T16:45:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-denver-secondary",
+    "field_strength": 0.656,
+    "field_harmonics": -0.189182,
+    "field_stability": 1,
+    "field_signature": "b955b8abc3691052956e965ad625de142f71b66e3461864cc25cb51cefc2d0ba",
+    "finalized_at": "2025-07-26T19:48:34.211Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-node-002",
+    "timestamp": "2025-01-26T16:45:00Z",
+    "original_natiq_score": 0.76
+  },
+  "finalized_at": "2025-07-26T19:48:34.211Z",
+  "finalization_version": "1.0",
+  "master_signature": "e373f961fff99ec4abb3a25c38ef11671b606ab2711a45391edcac84501f440a"
+}

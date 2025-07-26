@@ -1,0 +1,28 @@
+{
+  "apiKey": "your-pinata-api-key-here",
+  "apiSecret": "your-pinata-api-secret-here",
+  "jwt": "your-pinata-jwt-token-here",
+  "gateway": "https://gateway.pinata.cloud",
+  "endpoints": {
+    "pinJSONToIPFS": "https://api.pinata.cloud/pinning/pinJSONToIPFS",
+    "pinFileToIPFS": "https://api.pinata.cloud/pinning/pinFileToIPFS",
+    "unpin": "https://api.pinata.cloud/pinning/unpin",
+    "testAuthentication": "https://api.pinata.cloud/data/testAuthentication"
+  },
+  "options": {
+    "cidVersion": 1,
+    "wrapWithDirectory": false,
+    "customPinPolicy": {
+      "regions": [
+        {
+          "id": "FRA1",
+          "desiredReplicationCount": 1
+        },
+        {
+          "id": "NYC1", 
+          "desiredReplicationCount": 1
+        }
+      ]
+    }
+  }
+}

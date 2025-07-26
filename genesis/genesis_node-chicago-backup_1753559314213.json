@@ -1,0 +1,49 @@
+{
+  "node_id": "node-chicago-backup",
+  "original_coordinates": [
+    41.8781,
+    -87.6298
+  ],
+  "anchored_coordinates": [
+    41.8781,
+    -87.6298
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "bb465bd751afc73a2f5c8b52f8984e2d24e1aac3f9b877164951d7bb3511619a",
+  "drift_compensation": {
+    "distance_km": 947.5066414250605,
+    "drift_penalty": -0.1895013282850121,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.212Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.68,
+    "locked_score": 0.678782,
+    "temporal_harmonic": -0.00336,
+    "spatial_harmonic": 0.002143,
+    "lock_signature": "c2ed5e8feba49ac2f0d548e040df7b743fea7727fb70d6231e06468417b61429",
+    "locked_at": "2025-01-26T19:30:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-chicago-backup",
+    "field_strength": 0.598429,
+    "field_harmonics": -0.15789,
+    "field_stability": 1,
+    "field_signature": "7cdf95bcf366611ede150a50b5ca0fa4de96aeff5b7960952225e5f6bb5712b3",
+    "finalized_at": "2025-07-26T19:48:34.213Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-node-005",
+    "timestamp": "2025-01-26T19:30:00Z",
+    "original_natiq_score": 0.68
+  },
+  "finalized_at": "2025-07-26T19:48:34.213Z",
+  "finalization_version": "1.0",
+  "master_signature": "332e072cb58523187fb7c9a89471ab459220436bef4970820df8828d6944a100"
+}

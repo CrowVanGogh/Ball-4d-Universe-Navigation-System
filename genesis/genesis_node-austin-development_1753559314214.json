@@ -1,0 +1,49 @@
+{
+  "node_id": "node-austin-development",
+  "original_coordinates": [
+    30.2672,
+    -97.7431
+  ],
+  "anchored_coordinates": [
+    30.2672,
+    -97.7431
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "2c07c6560bd5b70ad94355ab02659dbed932aeffe042f7bcfe0cd43be993b7ba",
+  "drift_compensation": {
+    "distance_km": 1316.2575478037725,
+    "drift_penalty": -0.2632515095607545,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.214Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.58,
+    "locked_score": 0.595598,
+    "temporal_harmonic": 0.012847,
+    "spatial_harmonic": 0.002751,
+    "lock_signature": "a521cab0ae9deed0b19e8bece8b4bd1bf495c07485ac3a570f3aef38524b3b3e",
+    "locked_at": "2025-01-26T22:45:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-austin-development",
+    "field_strength": 0.523864,
+    "field_harmonics": -0.091365,
+    "field_stability": 1,
+    "field_signature": "1e9080f770952383f3ab367a3c87ff3e69df6f511a54b05916ec98b85423ccfd",
+    "finalized_at": "2025-07-26T19:48:34.214Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-node-008",
+    "timestamp": "2025-01-26T22:45:00Z",
+    "original_natiq_score": 0.58
+  },
+  "finalized_at": "2025-07-26T19:48:34.214Z",
+  "finalization_version": "1.0",
+  "master_signature": "d08b08d2db6a83780b7619b23c33e6fc9db975cdf88dac49d174de6c96f8ab16"
+}

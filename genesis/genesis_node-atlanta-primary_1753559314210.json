@@ -1,0 +1,49 @@
+{
+  "node_id": "node-atlanta-primary",
+  "original_coordinates": [
+    33.749,
+    -84.388
+  ],
+  "anchored_coordinates": [
+    33.749,
+    -84.388
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "88a2d60cc67a937cdd5771ac3fc328bc19c0f26283ee879b857666a122298928",
+  "drift_compensation": {
+    "distance_km": 0,
+    "drift_penalty": 0,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.209Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.89,
+    "locked_score": 0.906288,
+    "temporal_harmonic": 0.019912,
+    "spatial_harmonic": -0.003624,
+    "lock_signature": "52222f97b30e5f73b738c2bb363e0aa849481ec9879915a60d76e870d325deb6",
+    "locked_at": "2025-01-26T15:30:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-atlanta-primary",
+    "field_strength": 0.702762,
+    "field_harmonics": -0.093995,
+    "field_stability": 1,
+    "field_signature": "39b8cfdc91506184cd14b5470bd500a26639d570422a93baf569691bbaa8d08f",
+    "finalized_at": "2025-07-26T19:48:34.210Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-genesis-001",
+    "timestamp": "2025-01-26T15:30:00Z",
+    "original_natiq_score": 0.89
+  },
+  "finalized_at": "2025-07-26T19:48:34.210Z",
+  "finalization_version": "1.0",
+  "master_signature": "99a84f449bd8977386ad5d3318e641d00ba0dd2385293bbee3e0dbda080495be"
+}

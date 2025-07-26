@@ -1,0 +1,49 @@
+{
+  "node_id": "node-seattle-primary",
+  "original_coordinates": [
+    47.6062,
+    -122.3321
+  ],
+  "anchored_coordinates": [
+    47.6062,
+    -122.3321
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "a37619b05eb7480fc0c51b64001d1d0bd4ba2f2b85bbfe4c35a66b8bbf8e5e61",
+  "drift_compensation": {
+    "distance_km": 3505.682261924372,
+    "drift_penalty": -0.7011364523848744,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.212Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.94,
+    "locked_score": 0.92387,
+    "temporal_harmonic": -0.015536,
+    "spatial_harmonic": -0.000594,
+    "lock_signature": "1ee79e78cd12db5a887732735a750f026592be1bcb39a772e81f70abdb7b20b2",
+    "locked_at": "2025-01-26T18:20:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-seattle-primary",
+    "field_strength": 0.764,
+    "field_harmonics": -0.311322,
+    "field_stability": 1,
+    "field_signature": "7f011aefb21f5f3f31e915301943c60543e5ac6bc5557e460b0cc862113686b0",
+    "finalized_at": "2025-07-26T19:48:34.212Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-node-004",
+    "timestamp": "2025-01-26T18:20:00Z",
+    "original_natiq_score": 0.94
+  },
+  "finalized_at": "2025-07-26T19:48:34.212Z",
+  "finalization_version": "1.0",
+  "master_signature": "56adb5581927419041b959d8d45dbedbc14f2c291d303e2edb681adcbc8e7b23"
+}

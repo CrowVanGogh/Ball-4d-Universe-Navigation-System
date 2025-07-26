@@ -1,0 +1,94 @@
+{
+  "genesis_session": {
+    "id": "genesis_1753559314214",
+    "timestamp": "2025-07-26T19:48:34.214Z",
+    "total_nodes": 6,
+    "genesis_anchor": {
+      "coordinates": [
+        33.749,
+        -84.388
+      ],
+      "signature": null
+    }
+  },
+  "finalized_nodes": [
+    {
+      "node_id": "node-atlanta-primary",
+      "coordinates": [
+        33.749,
+        -84.388
+      ],
+      "harmonic_signature": "88a2d60cc67a937cdd5771ac3fc328bc19c0f26283ee879b857666a122298928",
+      "natiq_locked_score": 0.906288,
+      "field_strength": 0.702762,
+      "master_signature": "99a84f449bd8977386ad5d3318e641d00ba0dd2385293bbee3e0dbda080495be",
+      "finalized_at": "2025-07-26T19:48:34.210Z"
+    },
+    {
+      "node_id": "node-denver-secondary",
+      "coordinates": [
+        39.7392,
+        -104.9903
+      ],
+      "harmonic_signature": "cb469f1dc8498723df3c613cbfb1586da761adafc4505b5baa33a2e864366946",
+      "natiq_locked_score": 0.754998,
+      "field_strength": 0.656,
+      "master_signature": "e373f961fff99ec4abb3a25c38ef11671b606ab2711a45391edcac84501f440a",
+      "finalized_at": "2025-07-26T19:48:34.211Z"
+    },
+    {
+      "node_id": "node-seattle-primary",
+      "coordinates": [
+        47.6062,
+        -122.3321
+      ],
+      "harmonic_signature": "a37619b05eb7480fc0c51b64001d1d0bd4ba2f2b85bbfe4c35a66b8bbf8e5e61",
+      "natiq_locked_score": 0.92387,
+      "field_strength": 0.764,
+      "master_signature": "56adb5581927419041b959d8d45dbedbc14f2c291d303e2edb681adcbc8e7b23",
+      "finalized_at": "2025-07-26T19:48:34.212Z"
+    },
+    {
+      "node_id": "node-chicago-backup",
+      "coordinates": [
+        41.8781,
+        -87.6298
+      ],
+      "harmonic_signature": "bb465bd751afc73a2f5c8b52f8984e2d24e1aac3f9b877164951d7bb3511619a",
+      "natiq_locked_score": 0.678782,
+      "field_strength": 0.598429,
+      "master_signature": "332e072cb58523187fb7c9a89471ab459220436bef4970820df8828d6944a100",
+      "finalized_at": "2025-07-26T19:48:34.213Z"
+    },
+    {
+      "node_id": "node-boston-research",
+      "coordinates": [
+        42.3601,
+        -71.0589
+      ],
+      "harmonic_signature": "f191af1078a11c6bd5027f95a3b4e8000eaf04f309543132cf6842e97cbe6d36",
+      "natiq_locked_score": 0.834701,
+      "field_strength": 0.671088,
+      "master_signature": "a498c00d4fb67a31830bd03861b13502589805a511c73dd9f9c5c8ed91729add",
+      "finalized_at": "2025-07-26T19:48:34.213Z"
+    },
+    {
+      "node_id": "node-austin-development",
+      "coordinates": [
+        30.2672,
+        -97.7431
+      ],
+      "harmonic_signature": "2c07c6560bd5b70ad94355ab02659dbed932aeffe042f7bcfe0cd43be993b7ba",
+      "natiq_locked_score": 0.595598,
+      "field_strength": 0.523864,
+      "master_signature": "d08b08d2db6a83780b7619b23c33e6fc9db975cdf88dac49d174de6c96f8ab16",
+      "finalized_at": "2025-07-26T19:48:34.214Z"
+    }
+  ],
+  "system_integrity": {
+    "all_nodes_anchored": true,
+    "total_field_strength": 3.916143,
+    "average_natiq_score": 0.7823728333333334
+  },
+  "manifest_signature": "5377caae6307bc04c73ed8895fae1700670697252e77cade7258d0dad6411905"
+}

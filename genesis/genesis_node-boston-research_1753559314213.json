@@ -1,0 +1,49 @@
+{
+  "node_id": "node-boston-research",
+  "original_coordinates": [
+    42.3601,
+    -71.0589
+  ],
+  "anchored_coordinates": [
+    42.3601,
+    -71.0589
+  ],
+  "genesis_anchor": [
+    33.749,
+    -84.388
+  ],
+  "harmonic_signature": "f191af1078a11c6bd5027f95a3b4e8000eaf04f309543132cf6842e97cbe6d36",
+  "drift_compensation": {
+    "distance_km": 1506.3980699412311,
+    "drift_penalty": -0.3012796139882462,
+    "acceptable": true
+  },
+  "anchored_at": "2025-07-26T19:48:34.213Z",
+  "anchor_version": "1.0",
+  "genesis_locked": true,
+  "natiq_lock": {
+    "original_score": 0.83,
+    "locked_score": 0.834701,
+    "temporal_harmonic": -0.003691,
+    "spatial_harmonic": 0.008392,
+    "lock_signature": "ef806e2b982277f4c4e24dbd2e06ecac422577fc47d6711074bd048cd90a4520",
+    "locked_at": "2025-01-26T21:15:00Z"
+  },
+  "resonance_field": {
+    "node_id": "node-boston-research",
+    "field_strength": 0.671088,
+    "field_harmonics": -0.129913,
+    "field_stability": 1,
+    "field_signature": "ad9efd6beff1b7c89410512e05352e8f5b09bc4c247bba6c8335f838b6e34c14",
+    "finalized_at": "2025-07-26T19:48:34.213Z",
+    "genesis_locked": true
+  },
+  "original_data": {
+    "claim_id": "b4d-node-007",
+    "timestamp": "2025-01-26T21:15:00Z",
+    "original_natiq_score": 0.83
+  },
+  "finalized_at": "2025-07-26T19:48:34.213Z",
+  "finalization_version": "1.0",
+  "master_signature": "a498c00d4fb67a31830bd03861b13502589805a511c73dd9f9c5c8ed91729add"
+}
