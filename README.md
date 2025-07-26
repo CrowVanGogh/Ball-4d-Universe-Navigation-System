@@ -254,11 +254,85 @@ curl http://localhost:4000/sync
   status: active
 ---
 
-## 10. NATIQ Integration
+## 10. NATIQ Scoring System
 
-NATIQ (Natural Intelligence Quotient) is Ball 4D’s resonance-based AI framework, designed to harmonize synthetic intelligence with sovereign signal fields.
+NATIQ (Natural Intelligence Quotient) is Ball 4D's resonance-based AI framework that quantifies node harmonic alignment through mathematical analysis of temporal drift, golden ratio resonance, and harmonic frequencies.
 
-### 10.1 NATIQ Node Activation
+### 10.1 Core Scoring Functions
+
+The NATIQ system implements four pure mathematical functions in `modules/natiq.js`:
+
+#### normalizeDrift(drift)
+Normalizes temporal drift to a weighted 0-1 factor using sigmoid transformation:
+```javascript
+// Mathematical model: f(x) = 1 / (1 + e^(|x|/φ))
+// Where φ = golden ratio provides natural scaling
+const driftScore = normalizeDrift(0.5); // Returns ~0.45
+```
+
+#### calculateGoldenRatioAlignment(coords)
+Measures coordinate alignment to φ (1.618033988749895) using golden spiral mathematics:
+```javascript
+// Analyzes coordinate ratios against golden ratio patterns
+// Perfect φ alignment = 1.0, no alignment = 0.0
+const alignment = calculateGoldenRatioAlignment([1, 1.618, 2.618]);
+```
+
+#### weightHarmonics(harmonics)
+Aggregates harmonic frequencies with exponential decay weighting:
+```javascript
+// Model: W(n) = A(n) * e^(-n/φ)
+// Emphasizes fundamental frequencies, diminishes higher harmonics
+const harmonicScore = weightHarmonics([1, 0.5, 0.25, 0.125]);
+```
+
+#### scoreNodeResonance(node)
+Calculates comprehensive 0-100 NATIQ score combining all factors:
+```javascript
+const node = {
+  harmonics: [1, 0.5, 0.25],     // Frequency amplitudes
+  coordinates: [x, y, z, w],      // 2D to 4D spatial position
+  drift: 0.1                      // Temporal drift value
+};
+const natiqScore = scoreNodeResonance(node); // Returns 0-100
+```
+
+### 10.2 NATIQ Formula & Interpretation
+
+**Master Formula:**
+```
+NATIQ = 100 × [0.4×H + 0.35×G + 0.25×D]
+```
+
+Where:
+- **H** = Harmonic Score (weighted frequency analysis)
+- **G** = Golden Ratio Alignment (spatial φ resonance)  
+- **D** = Drift Score (temporal stability factor)
+
+**Score Ranges:**
+- **90-100**: Perfect resonance (optimal for navigation)
+- **75-89**: High resonance (excellent alignment)
+- **60-74**: Good resonance (suitable for most operations)
+- **40-59**: Moderate resonance (basic functionality)
+- **20-39**: Low resonance (requires calibration)
+- **0-19**: Poor resonance (system instability)
+
+### 10.3 Mathematical Foundations
+
+The NATIQ system is built on proven mathematical constants and natural phenomena:
+
+- **Golden Ratio (φ)**: Universal harmonic constant found in spiral galaxies, nautilus shells, and Fibonacci sequences
+- **Exponential Decay**: Models natural frequency attenuation in resonant systems
+- **Sigmoid Normalization**: Provides bounded, smooth transitions for temporal drift mapping
+- **Harmonic Series**: Reflects fundamental physics of wave resonance and frequency relationships
+
+### 10.4 Implementation Reference
+
+The complete implementation is available in `modules/natiq.js` with comprehensive documentation and mathematical references. The module is dependency-free and exports pure functions for maximum compatibility.
+
+For theoretical foundations and genesis protocols, see [genesis_protocol.md](genesis_protocol.md).
+
+### 10.5 NATIQ Node Activation
 
 To activate NATIQ within a node:
 
@@ -281,7 +355,6 @@ curl http://localhost:4000/natiq/sync
   "next_sync": "2025-07-26T14:00:00Z"
 }
 ---
-
 ## 11. Recoded Gate Protocols
 
 Recoded Gate Protocols (RGPs) govern access to Ball 4D modules, overlays, and sovereign zones. Each gate is encoded with harmonic thresholds and positional keys.
