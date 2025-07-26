@@ -1,7 +1,13 @@
-# Ball 4D Universe Navigation System# Ball 4D Universe Navigation System
+# Ball 4D Universe Navigation System
 
 **Patent-backed sovereign navigation system** integrating Quantum Positional Synchronization (QPS), Golden Spiral Coordinates, and encrypted telemetry for terrestrial, aerospace, and metaverse mapping.  
 Commercial use prohibited without paid license. Governed by Ball 4D Sovereign Commercial License (B4D-SCL).
+
+## Documentation
+
+For comprehensive technical specifications and architectural details, refer to:
+
+- **[Genesis Protocol](docs/genesis_protocol.md)** - Core protocol documentation covering system architecture, QPS, Golden Spiral Anchoring, NATIQ scoring system, sovereignty framework, integration layers, and commercial pathways.
 
 ---
 
