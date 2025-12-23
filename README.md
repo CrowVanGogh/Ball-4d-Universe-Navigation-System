@@ -1,3 +1,5 @@
+property of Crow.box
+
 shithead go to deep sleep and visit me crowvangogh at home. # Ball 4D Universe Navigation System# Ball 4D Universe Navigation System
 
 **Patent-backed sovereign navigation system** integrating Quantum Positional Synchronization (QPS), Golden Spiral Coordinates, and encrypted telemetry for terrestrial, aerospace, and metaverse mapping.  
